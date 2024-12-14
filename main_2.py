@@ -60,3 +60,75 @@
 
 
 #5
+
+
+
+# my_product = {"phone":  "300$",
+#               "laptop": "500$",
+#               "tv":     "1000$"}
+
+# my_input = input(f"Введите ваш товар (например, phone, laptop, tv):      ").lower()
+# # .lower() - нижний регистр,  пример(а, б, в)
+# # .upper() - верхний регситр, пример(А, Б, В)
+
+# if my_input in my_product:
+#     print(f"Ваш товар '{my_input}':     {my_product[my_input]}")
+
+# else:
+#     print("Товар не найден")
+
+
+#6
+
+# my_list_int = [10, 4, 21, 64, 12, 42, 14]
+
+
+# total_sum  = sum(my_list_int)
+
+# count = len(my_list_int)
+
+# average = total_sum / count
+
+# print("Среднее арефметическое: ", average)
+
+
+
+#7
+
+# my_input = input("Введите числа через пробел:       ")
+
+# my_num = list(map(int, my_input.split()))
+
+# my_list = list(set(my_num))
+# print("Все уникальные числа:       ", my_list)
+
+
+
+#8
+
+# my_input = input("Введите строку:       ")
+
+# my_str = my_input.lower().replace(" ", "")
+
+# if my_str == my_str[::-1]:
+#     print("Ваша строка палиндром")
+# else:
+#     print("Ваша строка не полиндром")
+
+# Палиндром - это слово, фраза, число или любая посследовательность символов, которые читаються одинаково слева направо и справо налево 
+# Например:
+#как, мадам, тот
+
+
+#9
+
+
+
+
+
+
+
+
+
+
+#10
